@@ -37,7 +37,7 @@ public class Main {
             ByteString audioContent = response.getAudioContent();
 
             try (OutputStream out = new FileOutputStream("output.mp3")) {
-                out.write(audioContent.toByteArray());;
+                out.write(audioContent.toByteArray());
                 System.out.println("Audio content written to file \"output.mp3\"");
             }
         }
