@@ -1,0 +1,5 @@
+/.gradle/
+/.idea/
+/build/
+/hello-google-cloud-tts-java.iml
+/output.mp3
